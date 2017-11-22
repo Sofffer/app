@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::any('/hook','HookController@hook');
+
+Route::get('/map','MapController@index');
 
