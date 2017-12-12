@@ -15,7 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any('/hook','HookController@hook');
+Route::any('/hook', 'HookController@hook');
 
-Route::get('/map','MapController@index');
+Route::get('/map', 'MapController@index');
 
+Route::post('/map/record/add', 'MapController@addRecord');
+
+Route::get('/map/data/{distance}','MapController@getData');
