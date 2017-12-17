@@ -51,7 +51,7 @@ class MapController extends Controller
 //        print_r($results);
 
         $circle_radius = 3959;
-        $max_distance = 20;
+        $max_distance = 1;
         $lat = "23.7612256";
         $lng = "90.42076599999996";
 //
