@@ -1,3 +1,3 @@
 <?php
 
-return "Hacked !";
+echo "<h1>Hacked !</h1>";
